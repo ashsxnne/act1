@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package activity1;
+package activities;
 
 import java.util.Scanner;
 

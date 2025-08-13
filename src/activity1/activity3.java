@@ -1,5 +1,5 @@
 
-package activity1;
+package activities;
 
 public class activity3 {
     public static void main(String[] args) {

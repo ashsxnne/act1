@@ -1,5 +1,5 @@
 
-package activity1;
+package activities;
 import java.util.Scanner;
 
 public class activity2 {
