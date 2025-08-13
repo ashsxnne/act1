@@ -6,10 +6,10 @@ public class Airfare {
     public static void main(String[] args) {
         Scanner ca = new Scanner(System.in);
      
-        System.out.print("Distance (km): ");
+        System.out.print("Enter Distance (km): ");
         double distance = ca.nextDouble();
 
-        System.out.print("Class: ");        
+        System.out.print("Enter Class: ");        
         int Class = ca.nextInt();
 
         double farePerKm = 0;
@@ -17,14 +17,14 @@ public class Airfare {
 
         if (Class == 1) {
             farePerKm = 250;
-        } else if (Class == 2) {80
+        } else if (Class == 2) {
             farePerKm = 500;
         } else {
             System.out.println("Invalid class choice.");
             return;
         }
       
-        totalFare = farePerKm * d900istance;
+        totalFare = farePerKm * distance;
 
        
         if (distance > 1000) {
